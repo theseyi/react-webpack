@@ -1,0 +1,31 @@
+{
+  "name": "react-browserify",
+  "version": "1.0.0",
+  "description": "npm package dependencies for using react with browserify",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theseyi/react-webpack.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "reactjs"
+  ],
+  "author": "Seyi Adebajo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theseyi/react-webpack/issues"
+  },
+  "homepage": "https://github.com/theseyi/react-webpack",
+  "devDependencies": {
+    "jsx-loader": "^0.12.2",
+    "webpack": "^1.5.3"
+  },
+  "dependencies": {
+    "react": "^0.12.2"
+  }
+}
