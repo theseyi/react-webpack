@@ -8,9 +8,9 @@ NodeJS needs to be installed *first*, you can find it here: [nodejs](http://node
 `$ npm install`
 
 This will install
-- react
+- react +(deps)
  - jsx-loader
-- webpack
+- webpack +(deps)
  - webpack-dev-server
 - style-loader
 - css-loader
