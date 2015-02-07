@@ -4,6 +4,8 @@
   "description": "npm package dependencies for using react with browserify",
   "main": "app.js",
   "scripts": {
+    "start": "webpack --colors --progress --watch",
+    "serve": "webpack-dev-server --colors --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,7 +29,8 @@
     "css-loader": "^0.9.1",
     "jsx-loader": "^0.12.2",
     "style-loader": "^0.8.3",
-    "webpack": "^1.5.3"
+    "webpack": "^1.5.3",
+    "webpack-dev-server": "^1.7.0"
   },
   "dependencies": {
     "react": "^0.12.2"
