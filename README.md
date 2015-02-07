@@ -3,7 +3,7 @@
 
 ####Usage
 
-NodeJS needs to be installed *first*, you can find it here: [http://nodejs.org](nodejs)
+NodeJS needs to be installed *first*, you can find it here: [nodejs](http://nodejs.org)
 
 `$ npm install`
 
