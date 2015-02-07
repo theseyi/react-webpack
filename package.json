@@ -13,7 +13,9 @@
   "keywords": [
     "react",
     "webpack",
-    "reactjs"
+    "reactjs",
+    "styles",
+    "css"
   ],
   "author": "Seyi Adebajo",
   "license": "MIT",
@@ -22,7 +24,9 @@
   },
   "homepage": "https://github.com/theseyi/react-webpack",
   "devDependencies": {
+    "css-loader": "^0.9.1",
     "jsx-loader": "^0.12.2",
+    "style-loader": "^0.8.3",
     "webpack": "^1.5.3"
   },
   "dependencies": {
