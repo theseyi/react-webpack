@@ -21,7 +21,7 @@ Start webpack in watch mode with progress and colors, "prettify's" the output, n
 
 ######OR
 
-`$ npm serve`
+`$ npm run serve`
 
 Start webpack development server. :heart:
 This will start a small express server at port :8080 on your machine (localhost:8080) and serve your files with the compiled bundle.
