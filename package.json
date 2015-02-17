@@ -1,5 +1,5 @@
 {
-  "name": "react-browserify",
+  "name": "react-webpack",
   "version": "1.0.0",
   "description": "npm package dependencies for using react with browserify",
   "main": "app.js",
