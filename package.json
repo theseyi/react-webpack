@@ -1,11 +1,11 @@
 {
   "name": "react-webpack",
   "version": "1.0.0",
-  "description": "npm package dependencies for using react with webpack",
+  "description": "npm package dependencies for using ReactJS with Webpack. Also implements Webpacks code splitting to chunk vendor and core application modules.",
   "main": "app.js",
   "scripts": {
     "start": "webpack --colors --progress --watch",
-    "serve": "webpack-dev-server --colors --progress",
+    "serve": "webpack-dev-server --devtool eval --content-base static --colors --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,6 +15,8 @@
   "keywords": [
     "react",
     "webpack",
+    "webpack-dev-server",
+    "code-splitting",
     "reactjs",
     "styles",
     "css"
@@ -29,7 +31,7 @@
     "css-loader": "^0.9.1",
     "jsx-loader": "^0.12.2",
     "style-loader": "^0.8.3",
-    "webpack": "^1.5.3",
+    "webpack": "^1.6.0",
     "webpack-dev-server": "^1.7.0"
   },
   "dependencies": {
