@@ -12,7 +12,7 @@ module.exports = {
   module: {
     loaders: [{
       test: /\.js(?:x)?$/,
-      loader: 'jsx-loader'
+      loader: 'jsx-loader?harmony'
     }, {
       test: /\.css$/,
       loader: 'style!css'
@@ -20,5 +20,5 @@ module.exports = {
   },
   plugins: [
     new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.bundle.js')
-  ],
+  ]
 };
